@@ -48,6 +48,13 @@ image::images/arch.png[integration, role="integr8ly-img-responsive"]
 * link:https://launcher.fabric8.io/docs/[Launcher Documentation, window="_blank"]
 ****
 
+[type=walkthroughResource,serviceName=code-ready]
+.Code Ready
+****
+* link:{che-url}[Console, window="_blank"]
+* link:https://developers.redhat.com/products/codeready-workspaces/overview/[Code Ready Overview, window="_blank"]
+* link:https://access.redhat.com/documentation/en-us/red_hat_codeready_workspaces_for_openshift/1.0.0/[Code Ready Documentation, window="_blank"]
+****
 
 [type=walkthroughResource,serviceName=3scale]
 .3Scale
