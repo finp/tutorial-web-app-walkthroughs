@@ -16,13 +16,6 @@ You can specify a branch on the git repository, if you do not want to add the de
 
 NOTE: You must have access to the link:{openshift-host}[OpenShift Console].
 
-The current configuration of your cluster is {walkthrough-locations}
-
-[subs="attributes"]
-----
-{walkthrough-locations}
-----
-
 
 [type=walkthroughResource]
 .Links
@@ -35,6 +28,16 @@ The current configuration of your cluster is {walkthrough-locations}
 
 [time=5]
 == Understanding walkthroughs
+
+
+The current configuration of your cluster is
+{test-attr} {walkthrough-locations}
+
+[subs="attributes"]
+----
+{walkthrough-locations}
+----
+
 
 image::images/custom.png[overview]
 
