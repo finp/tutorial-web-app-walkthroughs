@@ -18,6 +18,7 @@ NOTE: You must have access to the link:{openshift-host}[OpenShift Console].
 
 The current configuration of your cluster is:
 
+[subs="attributes"]
 ----
 {walkthrough-locations}
 ----
