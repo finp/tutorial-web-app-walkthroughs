@@ -16,6 +16,12 @@ You can specify a branch on the git repository, if you do not want to add the de
 
 NOTE: You must have access to the link:{openshift-host}[OpenShift Console].
 
+The current configuration of your cluster is:
+
+----
+{walkthrough-locations}
+----
+
 
 [type=walkthroughResource]
 .Links
