@@ -115,7 +115,7 @@ The following URL must be available before attempting this procedure:
 ----
 If a valid URL is not displayed, redo the previous procedure.
 
-. Navigate to the link:{route-fuse-flights-aggregator-host}/camel/flights[Flights Endpoint, window="_blank", id="id="wt2_section_1-2_1"].
+. Navigate to the link:{route-fuse-flights-aggregator-host}/camel/flights[Flights Endpoint, window="_blank", id="wt2_section_1-2_1"].
 . Count the number of flights listed in the JSON output.
 
 [type=verification]
