@@ -92,7 +92,7 @@ The Fuse Aggregation App provides information about flights. You deploy it using
 
 [type=verification]
 ====
-Check that the following pods are running in the link:{openshift-host}/console/project/{walkthrough-namespace}[OpenShift Project, window="_blank", id="id="wt2_section_1-1_2""]:
+Check that the following pods are running in the link:{openshift-host}/console/project/{walkthrough-namespace}[OpenShift Project, window="_blank", id="wt2_section_1-1_2"]:
 
 * fuse-flights-aggregator
 * arrivals
