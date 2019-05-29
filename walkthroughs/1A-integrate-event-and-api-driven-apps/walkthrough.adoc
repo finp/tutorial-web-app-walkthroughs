@@ -214,7 +214,7 @@ To allow Fuse Online to consume messages placed on the queue by the Node.js weba
 :openshift-url: https://master.city.openshiftworkshop.com/console/project/eval/overview
 :enmasse: AMQ Online
 
-. Log in to the link:{fuse-url}[Red Hat Fuse Online, window="_blank", id="wt1a_setion_2-3_1"] console.
+. Log in to the link:{fuse-url}[Red Hat Fuse Online, window="_blank", id="wt1a_section_2-3_1"] console.
 
 . Select *Connections* from the left hand menu.
 
