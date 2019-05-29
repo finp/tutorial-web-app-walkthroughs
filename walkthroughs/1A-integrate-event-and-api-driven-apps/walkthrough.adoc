@@ -57,11 +57,6 @@ image::images/arch.png[integration, role="integr8ly-img-responsive"]
 [id='creating-addresses_{context}']
 
 
-// TODO: figure out enmasse url
-:enmasse-url: https://console-enmasse.apps.city.openshiftworkshop.com/console/my-example-space
-// https://console-enmasse-my-example-space.apps.city.openshiftworkshop.com/#/dashboard
-
-
 :sectnums:
 
 
@@ -72,7 +67,7 @@ image::images/arch.png[integration, role="integr8ly-img-responsive"]
 
 To route messages to the Spring Boot app, create an address in AMQ Online.
 
-. Log into link:{enmasse-url}[AMQ Online, window="_blank", id="wt1a_section_1-1_1"].
+. Log into link:{enmasse-url}[AMQ Online, window="_blank", id="{context}-1"].
 . Select *Addresses* from the left hand menu.
 
 . Create a *requests* address:
