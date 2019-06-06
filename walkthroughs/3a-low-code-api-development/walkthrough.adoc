@@ -10,7 +10,7 @@
 
 = {walkthrough}
 
-This walkthrough demonstrates how to implement a container-native OpenAPI RESTful API without coding.
+This walkthrough demonstrates how to create a container-native OpenAPI RESTful API without coding.
 
 Container-native applications::
 Applications that are designed to run in a containerised environment.
