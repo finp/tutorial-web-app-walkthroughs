@@ -19,11 +19,18 @@ fs.readdir(directoryPath, function (err, files) {
     //listing all files using forEach
     files.forEach(function (file) {
         // Do whatever you want to do with the file
-        var adoc = 'walkthroughs/' + file + '/walkthrough.adoc';
-        asciidoctor.convertFile(adoc, {safe: 'safe', backend: 'revealjs', todir:'./'});
+        var adocFile = 'walkthroughs/' + file + '/walkthrough.adoc';
+        var htmlFile = 'walkthroughs/' + file + '/walkthrough.html';
+ 
+        var finalFile = file + '.html';
 
+        asciidoctor.convertFile(adocFile, {safe: 'safe', backend: 'revealjs'});
 
-        console.log(adoc); 
+        fs.rename(htmlFile, finalFile, function(err) {
+            if ( err ) console.log('ERROR: ' + err);
+        });
+
+        console.log(adocFile); 
     });
 });
 
